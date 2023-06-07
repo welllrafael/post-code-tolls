@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "craftable-postcode", "craftable-postcode\craftable-postcode.csproj", "{DE84CE57-4206-4B30-B084-9DB8F6FAC479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "craftable-postcodeTest", "craftable-postcodeTest\craftable-postcodeTest.csproj", "{53E6E657-B0E6-4B86-914D-D6BE2DC34C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE84CE57-4206-4B30-B084-9DB8F6FAC479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE84CE57-4206-4B30-B084-9DB8F6FAC479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE84CE57-4206-4B30-B084-9DB8F6FAC479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE84CE57-4206-4B30-B084-9DB8F6FAC479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E6E657-B0E6-4B86-914D-D6BE2DC34C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E6E657-B0E6-4B86-914D-D6BE2DC34C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E6E657-B0E6-4B86-914D-D6BE2DC34C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E6E657-B0E6-4B86-914D-D6BE2DC34C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F1B1DF6-BF2D-4D81-BDB7-B0306AE0DEB4}
+	EndGlobalSection
+EndGlobal

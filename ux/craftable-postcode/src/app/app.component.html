@@ -1,0 +1,38 @@
+<p>
+  <mat-toolbar>
+    <span>{{pageTitle}}</span>
+  </mat-toolbar>
+</p>
+<div class="center">
+  
+  <form class="example-form">
+    <input type="text"
+           placeholder="Search for a Address | Inform a postcode"
+           [formControl]="control"
+           [matAutocomplete]="auto"
+           class="example-input"
+           [(ngModel)]="postcode"
+           (focusout)="searchAddress()">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let street of filteredStreets | async" [value]="street">
+        {{street}}
+      </mat-option>
+    </mat-autocomplete>
+  </form>
+  <mat-error *ngIf="error">{{messageError}}</mat-error>
+</div>
+<div class="body">
+  <mat-accordion *ngFor="let address of addresses">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{address.title}}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{address.description}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>{{address.content}}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
